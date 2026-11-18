@@ -19,3 +19,8 @@
 .uncanny-prose p{margin:0 0 1.25em}.uncanny-prose p:last-child{margin-bottom:0}
 @media(max-width:620px){.writing-collection{padding-block:30px 50px}.uncanny-collection>summary{padding:23px 20px;gap:12px}.uncanny-body{padding:0 22px 30px}.uncanny-prose{font-size:.96rem;line-height:1.95}.uncanny-piece{padding-top:28px}}
 @media(prefers-reduced-motion:reduce){.uncanny-toggle{transition:none}}
+
+/* Read directly from the portfolio homepage. */
+.home-writing{border-top:1px solid var(--line);padding-top:42px;margin-top:44px;scroll-margin-top:32px}
+.home-writing-head{max-width:700px;margin-bottom:26px}.home-writing-head h3{font-size:1.7rem;letter-spacing:-.045em;margin:0 0 15px}.home-writing-head>p:last-child{font-size:.9rem;line-height:1.8;color:var(--muted)}
+.home-writing .uncanny-heading{font-size:clamp(1.12rem,2.4vw,1.65rem)}
