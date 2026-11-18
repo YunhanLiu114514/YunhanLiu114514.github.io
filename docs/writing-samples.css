@@ -1,0 +1,21 @@
+/* Writing samples stay hidden until the reader opens the collection. */
+.writing-collection{padding-block:48px 80px;max-width:1040px}
+.uncanny-collection{border:1px solid #bcc9ae;border-radius:7px;overflow:hidden;background:#eef0e6}
+.uncanny-collection>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:32px 36px;cursor:pointer}
+.uncanny-collection>summary::-webkit-details-marker{display:none}
+.uncanny-collection>summary:hover{background:#e5ebda}
+.uncanny-collection>summary:focus-visible{outline:3px solid #55743e;outline-offset:-4px}
+.uncanny-summary{display:grid;gap:12px}.uncanny-summary .kicker{margin:0;color:#667951}
+.uncanny-heading{font-size:clamp(1.2rem,2.5vw,1.8rem);font-weight:700;letter-spacing:-.035em;line-height:1.45}
+.uncanny-hint{font-size:.75rem;color:#68785a;line-height:1.6}
+.uncanny-toggle{font-size:2rem;line-height:1;font-weight:400;flex:0 0 26px;text-align:center;transition:transform .18s ease}
+.uncanny-collection[open] .uncanny-toggle{transform:rotate(45deg)}
+.uncanny-body{border-top:1px solid #c7d1ba;background:#f8f7f1;padding:8px 36px 42px}
+.uncanny-piece{max-width:720px;margin-inline:auto;padding-top:35px}
+.uncanny-piece+.uncanny-piece{border-top:1px solid #d0d8c4;margin-top:42px}
+.uncanny-number{font-size:.65rem;letter-spacing:.15em;color:#7a8a68;margin-bottom:10px}
+.uncanny-piece h2{font-size:1.3rem;letter-spacing:.02em;margin:0 0 24px}
+.uncanny-prose{font-family:Georgia,'Songti SC','Noto Serif SC',serif;font-size:1rem;line-height:2.05;letter-spacing:.015em;color:#2c3a2e;overflow-wrap:anywhere}
+.uncanny-prose p{margin:0 0 1.25em}.uncanny-prose p:last-child{margin-bottom:0}
+@media(max-width:620px){.writing-collection{padding-block:30px 50px}.uncanny-collection>summary{padding:23px 20px;gap:12px}.uncanny-body{padding:0 22px 30px}.uncanny-prose{font-size:.96rem;line-height:1.95}.uncanny-piece{padding-top:28px}}
+@media(prefers-reduced-motion:reduce){.uncanny-toggle{transition:none}}
